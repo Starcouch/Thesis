@@ -1,1 +1,3 @@
 # Thesis
+
+Started thesis, will work on documenting the process later on...
