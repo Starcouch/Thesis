@@ -1,11 +1,14 @@
+import os
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 
 
-def load_data(path="StudentsPerformance.csv"):
-    return pd.read_csv(path)
+def load_data(filename="StudentsPerformance.csv"):
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_path = os.path.join(base_dir, "data", filename)
+    return pd.read_csv(data_path)
 
 def split_data(df, target="math score", test_size=0.2, random_state=42):
     X = df.drop(columns=[target])
