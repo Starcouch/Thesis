@@ -9,7 +9,7 @@ from sklearn.linear_model import Lasso
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score
 
-df = pd.read_csv("StudentsPerformance.csv")
+df = pd.read_csv("../data/StudentsPerformance.csv")
 
 df = df.rename(columns=lambda x: x.strip().lower().replace(" ", "_"))
 df = pd.get_dummies(df, drop_first=True)

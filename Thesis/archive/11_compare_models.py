@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
-df = pd.read_csv("StudentsPerformance.csv")  # adjust if your file name is different
+df = pd.read_csv("../data/StudentsPerformance.csv")  # adjust if your file name is different
 
 df_encoded = pd.get_dummies(df, drop_first=True)
 

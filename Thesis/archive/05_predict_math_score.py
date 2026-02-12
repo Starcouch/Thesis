@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
-df = pd.read_csv("StudentsPerformance.csv")
+df = pd.read_csv("../data/StudentsPerformance.csv")
 
 df['gender'] = df['gender'].astype('category').cat.codes
 df['race/ethnicity'] = df['race/ethnicity'].astype('category').cat.codes

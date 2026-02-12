@@ -5,7 +5,7 @@ from sklearn.linear_model import Lasso
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
-df = pd.read_csv('StudentsPerformance.csv')
+df = pd.read_csv("../data/StudentsPerformance.csv")
 
 df_encoded = pd.get_dummies(df, drop_first=True)
 

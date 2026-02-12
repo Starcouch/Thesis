@@ -4,7 +4,7 @@ from matplotlib.lines import lineStyles
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-df = pd.read_csv("StudentsPerformance.csv")
+df = pd.read_csv("../data/StudentsPerformance.csv")
 
 df['gender'] = df['gender'].astype('category').cat.codes
 df['race/ethnicity'] = df['race/ethnicity'].astype('category').cat.codes

@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("StudentsPerformance.csv")
+df = pd.read_csv("../data/StudentsPerformance.csv")
 X = df.drop(columns=["math score"])
 y = df["math score"]
 

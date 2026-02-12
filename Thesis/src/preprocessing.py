@@ -5,7 +5,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 
 
-def load_data(filename="StudentsPerformance.csv"):
+def load_data(filename="../data/StudentsPerformance.csv"):
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_path = os.path.join(base_dir, "data", filename)
     return pd.read_csv(data_path)

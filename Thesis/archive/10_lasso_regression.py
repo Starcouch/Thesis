@@ -4,7 +4,7 @@ from sklearn.linear_model import Lasso
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv("StudentsPerformance.csv")
+df = pd.read_csv("../data/StudentsPerformance.csv")
 df_encoded = pd.get_dummies(df, drop_first=True)
 
 X = df_encoded.drop("math score", axis=1)

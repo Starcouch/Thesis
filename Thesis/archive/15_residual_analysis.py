@@ -4,7 +4,7 @@ import seaborn as sns
 import pickle
 from sklearn.metrics import mean_squared_error, r2_score
 
-data = pd.read_csv("StudentsPerformance.csv")
+data = pd.read_csv("../data/StudentsPerformance.csv")
 X = data.drop("math score", axis=1)
 y = data["math score"]
 

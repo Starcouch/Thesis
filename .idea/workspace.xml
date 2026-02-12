@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c4505e7-32fc-4a4a-99a5-e400a2126bec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Thesis/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/05_predict_math_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/05_predict_math_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/06_visualize_predictions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/06_visualize_predictions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/07_feature_importance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/07_feature_importance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/08_random_forest_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/08_random_forest_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/09_ridge_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/09_ridge_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/10_lasso_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/10_lasso_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/11_compare_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/11_compare_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/12_residual_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/12_residual_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/13_export_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/13_export_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/15_residual_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/15_residual_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/archive/16_final_model_export.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/16_final_model_export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/src/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -30,19 +43,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anand/Desktop/Thesis&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.05_predict_math_score.executor": "Run",
+    "Python.export_streamlit_model.executor": "Run",
+    "Python.interpretability.executor": "Run",
+    "Python.preprocessing.executor": "Run",
+    "Python.shap_analysis.executor": "Run",
+    "Python.streamlit_app.executor": "Run",
+    "Python.subgroup_analysis.executor": "Run",
+    "Python.train_models.executor": "Run",
+    "Python.tune_models.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/anand/Desktop/Thesis"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -59,5 +81,16 @@
       <updated>1762803910365</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

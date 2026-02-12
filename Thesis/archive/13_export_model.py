@@ -6,7 +6,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 
-df = pd.read_csv('StudentsPerformance.csv')
+df = pd.read_csv("../data/StudentsPerformance.csv")
 
 X = df.drop('math score', axis=1)
 y = df['math score']
