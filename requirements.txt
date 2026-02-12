@@ -1,0 +1,3 @@
+# This is for deployment purposes.
+
+-r Thesis/requirements.txt
