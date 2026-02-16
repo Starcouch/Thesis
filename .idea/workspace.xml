@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c4505e7-32fc-4a4a-99a5-e400a2126bec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/08_random_forest_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/08_random_forest_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/11_compare_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/11_compare_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/16_final_model_export.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/16_final_model_export.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/src/interpretability.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/interpretability.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/src/shap_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/shap_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/src/train_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/train_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/src/tune_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/tune_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +58,11 @@
     "last_opened_file_path": "C:/Users/anand/Desktop/Thesis"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anand\Desktop\Thesis\Thesis\models" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
