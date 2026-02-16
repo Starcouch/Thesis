@@ -6,18 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5c4505e7-32fc-4a4a-99a5-e400a2126bec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/05_predict_math_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/05_predict_math_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/06_visualize_predictions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/06_visualize_predictions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/07_feature_importance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/07_feature_importance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Thesis/archive/08_random_forest_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/08_random_forest_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/09_ridge_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/09_ridge_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/10_lasso_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/10_lasso_regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Thesis/archive/11_compare_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/11_compare_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/12_residual_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/12_residual_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/13_export_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/13_export_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/archive/15_residual_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/15_residual_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Thesis/archive/16_final_model_export.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/archive/16_final_model_export.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/src/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/src/interpretability.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/interpretability.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/src/shap_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/shap_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/src/train_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/train_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/src/tune_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis/src/tune_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,11 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.05_predict_math_score.executor": "Run",
+    "Python.08_random_forest_model.executor": "Run",
+    "Python.11_compare_models.executor": "Run",
+    "Python.16_final_model_export.executor": "Run",
+    "Python.evaluate_models.executor": "Run",
+    "Python.export_final_model.executor": "Run",
     "Python.export_streamlit_model.executor": "Run",
     "Python.interpretability.executor": "Run",
     "Python.preprocessing.executor": "Run",

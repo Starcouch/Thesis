@@ -36,7 +36,7 @@ def plot_linear_coefficients(model, model_name):
     plt.show()
 
 
-def plot_rf_importance(model):
+def plot_rf_importance(model, model_name):
     preprocessor = model.named_steps["preprocessor"]
     rf = model.named_steps["model"]
 
@@ -50,7 +50,7 @@ def plot_rf_importance(model):
 
     plt.figure(figsize=(10, 8))
     plt.barh(imp_df["Feature"], imp_df["Importance"])
-    plt.title("Feature Importance – Random Forest")
+    plt.title(f"Feature Importance – {model_name}")
     plt.xlabel("Importance")
     plt.tight_layout()
     plt.show()
@@ -61,7 +61,8 @@ def run_interpretability():
 
     plot_linear_coefficients(best_models["Ridge"], "Ridge Regression")
     plot_linear_coefficients(best_models["Lasso"], "Lasso Regression")
-    plot_rf_importance(best_models["RandomForest"])
+    plot_rf_importance(best_models["RandomForest"], "Random Forest"),
+    plot_rf_importance(best_models["XGBoost"], "XGBoost")
 
 
 if __name__ == "__main__":

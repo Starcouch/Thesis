@@ -3,10 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.ensemble import RandomForestRegressor
+from xgboost import XGBRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
-df = pd.read_csv("../data/StudentsPerformance.csv")  # adjust if your file name is different
+df = pd.read_csv("../data/StudentsPerformance.csv")
 
 df_encoded = pd.get_dummies(df, drop_first=True)
 
@@ -19,7 +20,12 @@ models = {
     "Linear Regression": LinearRegression(),
     "Ridge Regression": Ridge(alpha=1.0),
     "Lasso Regression": Lasso(alpha=0.1),
-    "Random Forest": RandomForestRegressor(n_estimators=100, random_state=42)
+    "Random Forest": RandomForestRegressor(n_estimators=100, random_state=42),
+    "XGBoost": XGBRegressor(
+        objective="reg:squarederror",
+        n_estimators=100,
+        random_state=42
+    )
 }
 
 results = {

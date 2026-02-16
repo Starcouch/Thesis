@@ -1,6 +1,7 @@
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import Ridge, Lasso
 from sklearn.ensemble import RandomForestRegressor
+from xgboost import XGBRegressor
 from sklearn.model_selection import GridSearchCV
 
 from preprocessing import load_data, split_data, build_preprocessor
@@ -32,7 +33,22 @@ def tune_models():
                 "model__max_depth": [None, 5, 10],
                 "model__min_samples_split": [2, 5]
             }
-        }
+        },
+        "XGBoost": {
+            "model": XGBRegressor(
+                objective="reg:squarederror",
+                random_state=42,
+                eval_metric="rmse"
+            ),
+            "params": {
+                "model__n_estimators": [200, 400],
+                "model__max_depth": [3, 4, 5],
+                "model__learning_rate": [0.01, 0.05, 0.1],
+                "model__subsample": [0.8, 1.0],
+                "model__colsample_bytree": [0.8, 1.0]
+            }
+}
+
     }
 
     best_models = {}

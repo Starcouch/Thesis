@@ -1,6 +1,7 @@
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.ensemble import RandomForestRegressor
+from xgboost import XGBRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 from preprocessing import load_data, split_data, build_preprocessor
@@ -17,6 +18,11 @@ def train_models():
         "Ridge": Ridge(alpha=1.0),
         "Lasso": Lasso(alpha=0.1),
         "RandomForest": RandomForestRegressor(
+            n_estimators=100,
+            random_state=42
+        ),
+        "XGBoost": XGBRegressor(
+            objective="reg:squarederror",
             n_estimators=100,
             random_state=42
         )
