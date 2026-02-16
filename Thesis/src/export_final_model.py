@@ -1,27 +1,19 @@
 import pickle
-
-from sklearn.pipeline import Pipeline
-from sklearn.linear_model import Ridge
-
-from preprocessing import load_data, split_data, build_preprocessor
 from tune_models import tune_models
 
 
 def export_final_model():
-    df = load_data()
-    X_train, X_test, y_train, y_test = split_data(df)
-
-    # Use tuned models instead of hardcoding
+    print("Loading tuned models...")
     best_models = tune_models()
 
-    # Select the best model (Ridge in your case)
-    final_pipeline = best_models["Ridge"]
+    # Select tuned Lasso model
+    final_pipeline = best_models["Lasso"]
 
-    # Save the tuned pipeline directly
     with open("../models/final_model.pkl", "wb") as f:
         pickle.dump(final_pipeline, f)
 
-    print("Final tuned Ridge model exported successfully.")
+    print("Final tuned Lasso model (alpha=0.001) exported successfully.")
+    print("Saved as: models/final_model.pkl")
 
 
 if __name__ == "__main__":
