@@ -7,3 +7,4 @@ scipy
 joblib
 shap
 streamlit
+altair<5
